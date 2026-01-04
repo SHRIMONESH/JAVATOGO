@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(javac:*)",
+      "Bash(java:*)",
+      "Bash(xargs javac:*)",
+      "Bash(cat:*)",
+      "Bash(go build:*)",
+      "Bash(javap:*)",
+      "Bash(for file in *.java)",
+      "Bash(do echo \"=== Transpiling $file ===\")",
+      "Bash(done)"
+    ]
+  }
+}

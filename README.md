@@ -98,6 +98,15 @@ func (self *Calculator) add(a int, b int) int {
     return a + b
 }
 ```
+run commands:
+javac -d build -sourcepath src src/api/TranspilerServer.java
+java -cp build api.TranspilerServer 8080
+
+
+$env:Path += ";C:\Program Files\Go\bin"
+cd D:\projects\javatogo\frontend
+npm install
+npm start
 
 ## Theory of Computation Concepts
 
